@@ -2,6 +2,9 @@ import sys
 """
 Sample code that parses a hansard and extracts parliamentary votes (well only the AYES)
 run it as follows python votes.py 2012-01-18_104745_1.doc.txt
+
+for instance, it will pull out all the AYES that you can find on line 694 of 2012-01-18_104745_1.doc.txt
+
 """
 
 class Scraper(object):
